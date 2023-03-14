@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fizz Buzz</string>
+
+    <string name="screen1_topbar_title">Fizz Buzz App</string>
+
+    <string name="screen1_int1_field_name">Int1</string>
+    <string name="screen1_int2_field_name">Int2</string>
+    <string name="screen1_word1_field_name">Word1</string>
+    <string name="screen1_word2_field_name">Word2</string>
+    <string name="screen1_limit_field_name">Limit</string>
+    <string name="screen1_start_game_button_label">Play !</string>
+    <string name="screen1_invalid_field_value">Invalid input</string>
+
+    <string name="screen2_topbar_title">Results</string>
+
+
+</resources>

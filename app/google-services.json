@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "984224221413",
+    "project_id": "fizzbuzz-54620",
+    "storage_bucket": "fizzbuzz-54620.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984224221413:android:5ae1b24a5dcf21d508ec0c",
+        "android_client_info": {
+          "package_name": "com.vtromeur.fizzbuzz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984224221413-rg1lubb1r5o8n06juiarlmjq0thbj21l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ1GqObgxgT7NZqZ5I1wDhQ7rVMAKSwBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984224221413-rg1lubb1r5o8n06juiarlmjq0thbj21l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984224221413:android:6cba10714d3156c808ec0c",
+        "android_client_info": {
+          "package_name": "com.vtromeur.fizzbuzz.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984224221413-rg1lubb1r5o8n06juiarlmjq0thbj21l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ1GqObgxgT7NZqZ5I1wDhQ7rVMAKSwBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984224221413-rg1lubb1r5o8n06juiarlmjq0thbj21l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

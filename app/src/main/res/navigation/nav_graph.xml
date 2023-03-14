@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/screen1"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/screen1"
+        android:name="com.vtromeur.fizzbuzz.view_layer.screen1.Screen1Fragment"
+        android:label="screen1"
+        tools:layout="">
+        <action
+            android:id="@+id/action_screen1_to_screen2"
+            app:destination="@id/screen2"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/pop_slide_in"
+            app:popExitAnim="@anim/pop_slide_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/screen2"
+        android:name="com.vtromeur.fizzbuzz.view_layer.screen2.Screen2Fragment"
+        android:label="screen2">
+        <argument app:argType="com.vtromeur.fizzbuzz.view_layer.data.PlayParams"
+            android:name="playParams"/>
+    </fragment>
+
+</navigation>
